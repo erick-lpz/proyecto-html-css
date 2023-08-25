@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@700&display=swap');
+
+/*Configurar toda la página*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Cinzel', sans-serif;
+}
+
+/*configuraciones generales*/
+a{
+    text-decoration: none;
+}
+
+ul{
+    list-style: none;
+}
+
+body html{
+    overflow-x: hidden;
+}
+
+section{
+    width: 80%;
+    margin: 80px auto;
+}
+/*final de configuraciones generales*/
+
+/*inico de navbar*/
+.navbar{
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    background-image: linear-gradient(to right, #4facfe 0%, #00f2fe 100%);
+    opacity: 0.9;
+}
+
+.logo{
+    height: 60px;
+    padding: 10px;
+    padding-bottom: 2px;
+}
+
+.nav-links{
+    display: flex;
+    align-items: center;
+}
+
+.nav-links li{
+    margin: 0 30px;    
+}
+
+.nav-links a{
+    font-size: 18px;
+    color: #FDFEFE;
+}
+
+.nav-links li a.active{
+    color:#BC0F01;
+}
+
+.nav-links li a:hover{
+    color: #BC0F01;
+}
+/*final del navbar*/
+
+/*header  y titulos*/
+header{
+    width: 100vw;
+    height: 100vh;
+    background-image: url(../images/fondo.jpg);
+    background-position: bottom;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header-content{
+    margin-bottom: 80px;
+    color: #B40808;
+    text-align: center;
+}
+
+.ctn{
+    padding: 10px 15px;
+    background-color: #BC0F01;
+    border: none;
+    border-radius: 10px;
+    color: #FDFEFE;
+}
+
+button:hover{
+    color: black;
+    border: 2px solid black;
+}
+/*final de header y titulos*/
+
+/*inicio main*/
+.tittle{
+    text-align: center;
+    font-size: 4vmin;
+    color: #BC0F01;
+}
+
+.row .col{
+    display: block;
+    align-self: center;
+}
+
+.main .row{
+    margin-top: 30px;
+}
+
+.line{
+    width: 300px;
+    height: 5px;
+    background: #BC0F01;
+    margin: 2px auto;
+    border-radius: 5px;
+}
+
+.col p{
+    color: #717D7E;
+    margin-top: 15px;
+    text-align: center;
+}
+
+.main {
+    margin-top: 20px;
+}
+
+.img{
+    width: 400px;
+    height: 500px;
+    margin-top: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+/*final main*/
+
+/*inicio footer*/
+.footer{
+    width: 100%;
+    height: 100px;
+    padding: 20px 80px;
+    margin: 0;
+    background-image: linear-gradient(to right, #4facfe 0%, #00f2fe 100%);
+    text-align: center;
+}
+
+.footer p{
+    color: #717D7E;
+    text-align: center;
+}
+/*final footer*/
